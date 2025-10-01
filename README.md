@@ -1,15 +1,15 @@
-# Odoo 19 External API
+# Odoo External API
 
-This repository contains examples and explanations for interacting with Odoo 19 external APIs.
-
-## Project structure
-
-- `Advanced_expl_v19.ipynb` - Examples for Odoo v19 and later (v19+)
-- `Advanced_expl_old.ipynb` - Examples for Odoo v19 and earlier (v19 and earlier)
+This repository contains examples and explanations for interacting with Odoo external API.
 
 > [!WARNING]
 > XML-RPC / JSON-RPC approaches are deprecated starting in v19 and will be removed in v20. <br/>
 > Use the new JSON-2 API for forward compatibility.
+
+## Project structure
+
+- `Advanced_expl_v19.ipynb` - Examples for Odoo v19 and later (v19+) using **JSON-2 API**
+- `Advanced_expl_old.ipynb` - Examples for Odoo v19 and earlier (v19 and earlier) using **XML-RPC**
 
 ## Useful Links
 - [Odoo Official Documentation](https://www.odoo.com/documentation/19.0/developer/reference/external_api.html)
